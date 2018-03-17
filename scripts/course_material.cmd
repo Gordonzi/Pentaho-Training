@@ -24,7 +24,7 @@ IF '%x%' == '%x%' GOTO Item_%x%
 
 :Item_4
 SET DIR="C:\Pentaho Training - Test\"
-IF EXIST %DIR% RMDIR /S /Q %DIR% 
+IF EXIST %DIR%\DI-1500 RMDIR /S /Q %DIR% 
 GOTO :NOTEST
 IF NOT EXIST %DIR% GOTO NOTEST
 :NOTEST
