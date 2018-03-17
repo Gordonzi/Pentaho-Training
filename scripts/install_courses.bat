@@ -22,8 +22,6 @@ IF '%x%' == '%x%' GOTO Item_%x%
 
 
 :Item_4
-md -Force -Path C:\Test
-$client = new-object System.Net.WebClient
-$client.DownloadFile(https://rawgit.com/jporeilly/Pentaho-Training/scripts/install_courses.bat,“C:\Test\install_courses.cmd”)
+New-Item -ItemType Directory -Force -Path C:\Test
 git clone https://github.com/jporeilly/DI-1500.git DI-1500
 GOTO Start
