@@ -34,7 +34,7 @@ IF '%x%' == '%x%' GOTO Item_%x%
 
 
 :Item_1
-SET DIR="C:\Pentaho Training - Test\"
+SET DIR="C:\Pentaho Training\"
 IF EXIST %DIR% RMDIR /S /Q %DIR%\BA-1000
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
@@ -46,7 +46,7 @@ EXIT
 
 
 :Item_2
-SET DIR="C:\Pentaho Training - Test\"
+SET DIR="C:\Pentaho Training\"
 IF EXIST %DIR% RMDIR /S /Q %DIR%\BA-2000
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
@@ -58,7 +58,7 @@ EXIT
 
 
 :Item_3
-SET DIR="C:\Pentaho Training - Test\"
+SET DIR="C:\Pentaho Training\"
 IF EXIST %DIR% RMDIR /S /Q %DIR%\BA-3000
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
@@ -70,29 +70,55 @@ EXIT
 
 
 :Item_4
-SET DIR="C:\Pentaho Training - Test\"
+SET DIR="C:\Pentaho Training\"
 IF EXIST %DIR% RMDIR /S /Q %DIR%\DI-1000
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/DI-1500.git DI-1000
+git clone https://github.com/jporeilly/DI-1000.git DI-1000
 EXIT
 
 :Item_5.1
 SET DIR="C:\Confluent-4.0\"
-IF EXIST %DIR% RMDIR /S /Q %DIR%\Confluent-4.0
+IF EXIST %DIR% RMDIR /S /Q %DIR%
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
 git clone https://github.com/jporeilly/Confluent-4.0.git Confluent-4.0
+EXIT
+
+
+:Item_5.2
+SET DIR="C:\Pentaho Training\"
+IF EXIST %DIR% RMDIR /S /Q %DIR%\DI-1500
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/DI-1500.git DI-1500
+EXIT
+
+
+:Item_5.3
+SET DIR="C:\Projects\"
+IF EXIST %DIR% RMDIR /S /Q %DIR%
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/DI-1500.git DI-1500
+EXIT
+
 
 :Item_5.4
 SET DIR="C:\Confluent-4.0\"
-IF EXIST %DIR% RMDIR /S /Q %DIR%\Confluent-4.0
+IF EXIST %DIR% RMDIR /S /Q %DIR%
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
