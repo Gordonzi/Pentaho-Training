@@ -91,7 +91,7 @@ CD %DIR%
 git clone https://github.com/jporeilly/Confluent-4.0.git Confluent-4.0
 
 :Item_5.4
-SET DIR="Confluent-4.0\"
+SET DIR="C:\Confluent-4.0\"
 IF EXIST %DIR% RMDIR /S /Q %DIR%\Confluent-4.0
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
