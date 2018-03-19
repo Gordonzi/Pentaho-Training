@@ -20,8 +20,10 @@ echo.    4. Pentaho Data Integration - DI-1000
 echo.        *DI-1000 - Course Files installed to C:\Pentaho Training\DI-1000
 echo.
 echo.    5. Advanced Pentaho Data Integration - DI-1500
-echo.        *DI-1500 - Course Files installed to C:\Pentaho Training\DI-1500
-echo.        *Projects - Project files installed to C:\Projects
+echo.        5.1 Confluent 4.0 - Confluent-4.0 installed to C:\Confluent-4.0
+echo.        5.2 DI-1500 - Course Files installed to C:\Pentaho Training\DI-1500
+echo.        5.3 Projects - Project files installed to C:\Projects
+echo.        5.4 Setup Course - All Repositories
 echo.
 echo.
 echo. The window will close once scripts have successfully executed.
@@ -78,17 +80,25 @@ CD %DIR%
 git clone https://github.com/jporeilly/DI-1500.git DI-1000
 EXIT
 
-
-
-:Item_5
-SET DIR="Confluent-4.0 - Test\"
+:Item_5.1
+SET DIR="Confluent-4.0\"
 IF EXIST %DIR% RMDIR /S /Q %DIR%\Confluent-4.0
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/DI-1500.git Confluent-4.0
+git clone https://github.com/jporeilly/Confluent-4.0.git Confluent-4.0
+
+:Item_5.4
+SET DIR="Confluent-4.0\"
+IF EXIST %DIR% RMDIR /S /Q %DIR%\Confluent-4.0
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/Confluent-4.0.git Confluent-4.0
 
 SET DIR="C:\Pentaho Training - Test\"
 IF EXIST %DIR% RMDIR /S /Q %DIR%\DI-1500
