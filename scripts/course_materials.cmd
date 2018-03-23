@@ -4,9 +4,8 @@ cls
 echo.
 echo. This script installs the required Course Materials from GitHub Repositories.
 echo.
-echo. If you have already executed this script:
-echo. **Just the selected Pentaho Course Course Folder is deleted**
-echo.
+echo. If a Pentaho Training already exists, then just the course folder is deleted:
+echo. 
 echo.    1. Business Analytics User Console - BA-1000
 echo.        *BA-1000 - Course Files installed to C:\Pentaho Training\BA-1000
 echo.
@@ -20,10 +19,12 @@ echo.    4. Pentaho Data Integration - DI-1000
 echo.        *DI-1000 - Course Files installed to C:\Pentaho Training\DI-1000
 echo.
 echo.    5. Advanced Pentaho Data Integration - DI-1500
+echo.        *DI-1500 - Course Files installed to C:\Pentaho Training\DI-1500
+echo.        
 echo.        5.1 Confluent 4.0 - Confluent-4.0 installed to C:\Confluent-4.0
-echo.        5.2 DI-1500 - Course Files installed to C:\Pentaho Training\DI-1500
-echo.        5.3 Projects - Project files installed to C:\Projects
-echo.        5.4 Setup Course - All Repositories
+echo.        5.2 Projects - Project files installed to C:\Projects
+echo.        
+echo.    6. All Pentaho Courses...    
 echo.
 echo.
 echo. The window will close once scripts have successfully executed.
@@ -41,7 +42,7 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/DI-1500.git BA-1000
+git clone https://github.com/jporeilly/BA-1000.git BA-1000
 EXIT
 
 
@@ -53,7 +54,7 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/DI-1500.git BA-2000
+git clone https://github.com/jporeilly/BA-2000.git BA-2000
 EXIT
 
 
@@ -65,7 +66,7 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/DI-1500.git BA-3000
+git clone https://github.com/jporeilly/BA-3000.git BA-3000
 EXIT
 
 
@@ -80,6 +81,41 @@ CD %DIR%
 git clone https://github.com/jporeilly/DI-1000.git DI-1000
 EXIT
 
+
+:Item_5
+SET DIR="C:\Pentaho Training\"
+IF EXIST %DIR% RMDIR /S /Q %DIR%\DI-1500
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/DI-1500.git DI-1500
+GOTO :CONFLUENT
+
+:CONFLUENT
+SET DIR="C:\Confluent-4.0\"
+IF EXIST %DIR% RMDIR /S /Q %DIR%
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/Confluent-4.0.git Confluent-4.0
+GOTO: PROJECTS
+
+:PROJECTS
+SET DIR="C:\Projects\"
+IF EXIST %DIR% RMDIR /S /Q %DIR%
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/Projects.git Projects
+EXIT
+
+
 :Item_5.1
 SET DIR="C:\Confluent-4.0\"
 IF EXIST %DIR% RMDIR /S /Q %DIR%
@@ -93,18 +129,6 @@ EXIT
 
 
 :Item_5.2
-SET DIR="C:\Pentaho Training\"
-IF EXIST %DIR% RMDIR /S /Q %DIR%\DI-1500
-GOTO :NOFOLDER
-IF NOT EXIST %DIR% GOTO NOFOLDER
-:NOFOLDER
-MD %DIR%
-CD %DIR%
-git clone https://github.com/jporeilly/DI-1500.git DI-1500
-EXIT
-
-
-:Item_5.3
 SET DIR="C:\Projects\"
 IF EXIST %DIR% RMDIR /S /Q %DIR%
 GOTO :NOFOLDER
@@ -112,35 +136,9 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/DI-1500.git DI-1500
+git clone https://github.com/jporeilly/Projects.git Projects
 EXIT
 
 
-:Item_5.4
-SET DIR="C:\Confluent-4.0\"
-IF EXIST %DIR% RMDIR /S /Q %DIR%
-GOTO :NOFOLDER
-IF NOT EXIST %DIR% GOTO NOFOLDER
-:NOFOLDER
-MD %DIR%
-CD %DIR%
-git clone https://github.com/jporeilly/Confluent-4.0.git Confluent-4.0
+:Item_6
 
-SET DIR="C:\Pentaho Training - Test\"
-IF EXIST %DIR% RMDIR /S /Q %DIR%\DI-1500
-GOTO :NOTEST
-IF NOT EXIST %DIR% GOTO NOFOLDER
-:NOFOLDER
-MD %DIR%
-CD %DIR%
-git clone https://github.com/jporeilly/DI-1500.git DI-1500
-
-SET DIR="C:\Projects  - Test\"
-IF EXIST %DIR% RMDIR /S /Q %DIR%
-GOTO :NOTEST2
-IF NOT EXIST %DIR% GOTO NOFOLDER
-:NOFOLDER
-MD %DIR%
-CD %DIR%
-git clone https://github.com/jporeilly/DI-1500.git Projects
-EXIT
