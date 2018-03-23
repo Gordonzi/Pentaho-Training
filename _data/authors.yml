@@ -17,7 +17,7 @@ author1:
     path:            https://placehold.it/128x128
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            https://jporeilly.github.io/Pentaho-Training/assets/img/27071526.jpg
+      1x:            https://jporeilly.github.io/Pentaho-Training/assets/img/joreilly.png
       2x:            
 
   # Social media icons in sidebar.
