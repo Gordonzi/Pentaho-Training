@@ -117,14 +117,14 @@ EXIT
 
 
 :Item_5.1
-SET DIR="C:\"
+SET DIR="C:\Confluent-4.0"
 IF EXIST %DIR% RMDIR /S /Q %DIR%
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/Confluent-4.0.git Confluent-4.0
+git clone https://github.com/jporeilly/Confluent-4.0.git Confluent-4.0 .
 EXIT
 
 
