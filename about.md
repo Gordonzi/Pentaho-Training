@@ -16,7 +16,7 @@ description: >
 hide_description: true
 
 # Setting `menu` will generate an entry in the sidebar.
-menu: true
+menu: false
 ---
 
 
