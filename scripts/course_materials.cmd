@@ -94,25 +94,25 @@ git clone https://github.com/jporeilly/DI-1500.git DI-1500
 GOTO :CONFLUENT
 
 :CONFLUENT
-SET DIR="C:\"
+SET DIR="C:\Confluent-4.0"
 IF EXIST %DIR% RMDIR /S /Q %DIR%
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/Confluent-4.0.git Confluent-4.0
+git clone https://github.com/jporeilly/Confluent-4.0.git .
 GOTO: PROJECTS
 
 :PROJECTS
-SET DIR="C:\"
+SET DIR="C:\Projects"
 IF EXIST %DIR% RMDIR /S /Q %DIR%
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/Projects.git Projects
+git clone https://github.com/jporeilly/Projects.git .
 EXIT
 
 
@@ -124,19 +124,19 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/Confluent-4.0.git Confluent-4.0 .
+git clone https://github.com/jporeilly/Confluent-4.0.git .
 EXIT
 
 
 :Item_5.2
-SET DIR="C:\"
+SET DIR="C:\Projects"
 IF EXIST %DIR% RMDIR /S /Q %DIR%
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/Projects.git Projects
+git clone https://github.com/jporeilly/Projects.git .
 EXIT
 
 
