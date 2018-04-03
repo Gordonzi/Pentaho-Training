@@ -4,7 +4,7 @@
 author1:
   # Replace <...> with your own (remove the < >)
   name:              James O'Reilly
-  email:             <jp.oreilly@hotmail.com>
+  email:             jp.oreilly@hotmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
