@@ -141,4 +141,70 @@ EXIT
 
 
 :Item_6
+SET DIR="C:\Pentaho Training\"
+IF EXIST %DIR% RMDIR /S /Q %DIR%\BA-1000
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/BA-1000.git BA-1000
+
+IF EXIST %DIR% RMDIR /S /Q %DIR%\BA-2000
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/BA-2000.git BA-2000
+
+
+IF EXIST %DIR% RMDIR /S /Q %DIR%\BA-3000
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/BA-3000.git BA-3000
+
+
+IF EXIST %DIR% RMDIR /S /Q %DIR%\DI-1000
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/DI-1000.git DI-1000
+
+
+IF EXIST %DIR% RMDIR /S /Q %DIR%\DI-1500
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/DI-1500.git DI-1500
+GOTO :CONFLUENT
+
+:CONFLUENT
+SET DIR="C:\Confluent-4.0"
+IF EXIST %DIR% RMDIR /S /Q %DIR%
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/Confluent-4.0.git .
+GOTO: PROJECTS
+
+:PROJECTS
+SET DIR="C:\Projects"
+IF EXIST %DIR% RMDIR /S /Q %DIR%
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/Projects.git .
+EXIT
 
