@@ -102,7 +102,7 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 MD %DIR%
 CD %DIR%
 git clone https://github.com/jporeilly/Confluent-4.0.git .
-GOTO: PROJECTS
+GOTO :PROJECTS
 
 :PROJECTS
 SET DIR="C:\Projects"
@@ -195,7 +195,7 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 MD %DIR%
 CD %DIR%
 git clone https://github.com/jporeilly/Confluent-4.0.git .
-GOTO: PROJECTS
+GOTO :PROJECTS
 
 :PROJECTS
 SET DIR="C:\Projects"
