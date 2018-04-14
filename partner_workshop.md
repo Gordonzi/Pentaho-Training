@@ -12,7 +12,7 @@ comments: true
 # Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  Enter description of Partner Workshop
+  The Partner Workshop provides opportunities to understand the role of the affective domain in learning and to discuss the application of this understanding to specific examples in the geosciences including evolution and environmental issues.
 
 # You can show the description on the page by deleting this line:
 hide_description: false
@@ -22,9 +22,9 @@ menu: true
 ---
 
 
-|                 | Day 1                                | Day 2             | Day 3             | Day 4             | Day 5             |
-|                 |:-------------------------------------|:------------------|:------------------|:------------------|:------------------|
-| Architect       | Overview                             |                   |                   |                   |                   |
+| Roles           | Day 1                                | Day 2             | Day 3             | Day 4             | Day 5             |
+|:----------------|:-------------------------------------|:------------------|:------------------|:------------------|:------------------|
+| Architect       | Overview of Workshop                 |                   |                   |                   |                   |
 |                 |                                      |                   |                   |                   |                   |
 | ETL Developer   | Hitatchi VANTAGE Delivery Methodolgy |                   |                   |                   |                   |
 |                 |    + Plan                            |                   |                   |                   |                   |
