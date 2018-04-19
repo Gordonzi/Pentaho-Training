@@ -24,18 +24,31 @@ menu: true
 
 | Roles           | Day 1                                | Day 2             | Day 3             | Day 4             | Day 5             |
 |:----------------|:-------------------------------------|:------------------|:------------------|:------------------|:------------------|
-| Architect       | Overview of Workshop                 |                   |                   |                   |                   |
+|                 | Overview of Workshop                 |                   |                   |                   | Presentations     |
 |                 |                                      |                   |                   |                   |                   |
-| ETL Developer   | Hitatchi VANTAGE Delivery Methodolgy |                   |                   |                   |                   |
+|                 | Hitatchi VANTAGE Delivery Methodolgy |                   |                   |                   |                   |
 |                 |    + Plan                            |                   |                   |                   |                   |
-| Business Analyst|    + Discover                        |                   |                   |                   |                   |
+|                 |    + Discover                        |                   |                   |                   |                   |
 |                 |    + Design                          |                   |                   |                   |                   |
 |                 |    + Execute                         |                   |                   |                   |                   |
 |                 |    + Enable                          |                   |                   |                   |                   |
-|                 |:-------------------------------------|:------------------|:------------------|:------------------|:------------------|
 |                 |                                      |                   |                   |                   |                   |
 |                 |                                      |                   |                   |                   |                   |
+| Architect       |                                      |                   |                   |                   |                   |
 |                 |                                      |                   |                   |                   |                   |
+| ETL Developer   |                                      |                   |                   |                   |                   |
+|                 |                                      |                   |                   |                   |                   |    
+| Business Analyst|                                      |                   |                   |                   |                   |
 |                 |                                      |                   |                   |                   |                   |
+|:----------------|:-------------------------------------|:------------------|:------------------|:------------------|:------------------|
+
+
+
+
+
+
+
+
+
 
 {:.scroll-table}
