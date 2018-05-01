@@ -27,7 +27,9 @@ menu: true
 
 | Day             | Topic                        | Activity                                             | Day             | Topic                        |
 |:----------------|:-----------------------------|:-----------------------------------------------------|:----------------|:-----------------------------| 
-|   1             | Introduction                 | • Overview of Workshop                               |  2              |
+|   1             | Introduction                 | • Overview of Workshop                               |  2 &£             | Solution
+Architecture    |
+
 |                 |                              | • Lab Environment                                    |  
 |                 | Story                        | • Secondhand Lens                                    |                   
 |                 |                              | Requirements:                                        |                  
@@ -47,3 +49,4 @@ menu: true
 |                 |                              |    the solution architecture                         |
 |:----------------|:-----------------------------|:-----------------------------------------------------|
 
+{:.flip-table}
