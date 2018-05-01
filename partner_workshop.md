@@ -25,9 +25,9 @@ menu: true
 ---
 
 
-| Day             | Topic                        | Activity                                             | 
-|:----------------|:-----------------------------|:-----------------------------------------------------|   
-|   1             | Introduction                 | • Overview of Workshop                               |
+| Day             | Topic                        | Activity                                             | Day             | Topic                        |
+|:----------------|:-----------------------------|:-----------------------------------------------------|:----------------|:-----------------------------| 
+|   1             | Introduction                 | • Overview of Workshop                               |  2              |
 |                 |                              | • Lab Environment                                    |  
 |                 | Story                        | • Secondhand Lens                                    |                   
 |                 |                              | Requirements:                                        |                  
@@ -41,5 +41,9 @@ menu: true
 |                 |                              |                       Dashboard                      |    
 |                 | Installation & Configuration | • Pentaho Business Analytics Suite v8.0              |
 |                 |                              |    o	Archive Installation                            |  
+|                 |                              |    o	Client Tools (Wizard)                           |
+|                 |                              |    o	Security (Roles/Users)                          |
+|                 | Solution Architecture        |  • Assess customer’s requirements and design         |             
+|                 |                              |    the solution architecture                         |
 |:----------------|:-----------------------------|:-----------------------------------------------------|
 
