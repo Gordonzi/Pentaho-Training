@@ -25,20 +25,21 @@ menu: true
 ---
 
 
-| Day             | Topic                  | Activity                                   | 
-|:----------------|:-----------------------|:-------------------------------------------|
-|   1             | Introduction           | •	Overview of Workshop                    |             
-|                 |                        | •	Lab Environment                         |          
-|                 | Story                  | •	Secondhand Lens                         |                   
-|                 |                        | Requirements:                              |                  
-|                 |                        |    o	Non-functional – GitHub Repository  |                                                                  |                 |                        |                                            |                    
-|                 |                        |                                            |
-|                 |                        |                                            |
-|                 |                        |                                            |
-|                 |                        |                                            |
-|                 |                        |                                            |
-|                 |                        |                                            |    
-|                 |                        |                                            |
-|                 |                        |                                            |  
-|:----------------|:-----------------------|:-------------------------------------------|
+| Day             | Topic                        | Activity                                             | 
+|:----------------|:-----------------------------|:-----------------------------------------------------|   
+|   1             | Introduction                 | • Overview of Workshop                               |
+|                 |                              | • Lab Environment                                    |  
+|                 | Story                        | • Secondhand Lens                                    |                   
+|                 |                              | Requirements:                                        |                  
+|                 |                              |    o	Non-functional – GitHub Repository / Git        |
+|                 |                              |                       Database Management Tool       |                    
+|                 |                              |                       MySQL - Relational             |
+|                 |                              |                       MonetDB - Star                 |
+|                 |                              |    o	Business       – Analysis Reports  (PAZ)        |
+|                 |                              |                       Interactive Reports (PIR)      |
+|                 |                              |                       Report Designer (PRD)          |
+|                 |                              |                       Dashboard                      |    
+|                 | Installation & Configuration | • Pentaho Business Analytics Suite v8.0              |
+|                 |                              |    o	Archive Installation                            |  
+|:----------------|:-----------------------------|:-----------------------------------------------------|
 
