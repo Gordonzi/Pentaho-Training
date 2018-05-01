@@ -25,25 +25,22 @@ menu: true
 ---
 
 
-| Day             | Topic                  | Activity                                 | 
-|:----------------|:-----------------------|:-----------------------------------------|
-|   1             | Introduction           | •	Overview of Workshop                  |             
-|                 |                        | •	Lab Environment                       |          
-|                 | Story                  | •	Story – Secondhand Lens               |                   
-|                 |                        | Requirements:                            |                  
-|                 |                        |    o	Non-functional – GitHub Repository                |                   |                   |                   |
-|                 |                              |                   |                   |                   |                   |
-|                 |                             |                   |                   |                   |                   |
-|                 |    + Enable                          |                   |                   |                   |                   |
-|                 |                                      |                   |                   |                   |                   |
-|                 |                                      |                   |                   |                   |                   |
-| Architect       |                                      |                   |                   |                   |                   |
-|                 |                                      |                   |                   |                   |                   |
-| ETL Developer   |                                      |                   |                   |                   |                   |
-|                 |                                      |                   |                   |                   |                   |    
-| Business Analyst|                                      |                   |                   |                   |                   |
-|                 |                                      |                   |                   |                   |                   |
-|:----------------|:-------------------------------------|:------------------|
+| Day             | Topic                  | Activity                                   | 
+|:----------------|:-----------------------|:-------------------------------------------|
+|   1             | Introduction           | •	Overview of Workshop                    |             
+|                 |                        | •	Lab Environment                         |          
+|                 | Story                  | •	Secondhand Lens                         |                   
+|                 |                        | Requirements:                              |                  
+|                 |                        |    o	Non-functional – GitHub Repository  |                                                                  |                 |                        |                                            |                    
+|                 |                        |                                            |
+|                 |                        |                                            |
+|                 |                        |                                            |
+|                 |                        |                                            |
+|                 |                        |                                            |
+|                 |                        |                                            |    
+|                 |                        |                   |
+|                 |                                      |                   |  
+:---------------- |:-------------------------------------|:------------------|
 
 
 
