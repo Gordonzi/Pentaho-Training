@@ -25,13 +25,13 @@ menu: true
 ---
 
 
-| Day             | Topic                  | Activity                    | 
-|:----------------|:-----------------------|:----------------------------|
-|   1             | Introduction           | •	Overview of Workshop     |             
-|                 |                        | •	Lab Environment          |          
-|                 | Story                  | •	Story – Secondhand Lens  |                   
-|                 |                               |                   |                  
-|                 |                            |                   |                   |                   |                   |
+| Day             | Topic                  | Activity                                 | 
+|:----------------|:-----------------------|:-----------------------------------------|
+|   1             | Introduction           | •	Overview of Workshop                  |             
+|                 |                        | •	Lab Environment                       |          
+|                 | Story                  | •	Story – Secondhand Lens               |                   
+|                 |                        | Requirements:                            |                  
+|                 |                        |    o	Non-functional – GitHub Repository                |                   |                   |                   |
 |                 |                              |                   |                   |                   |                   |
 |                 |                             |                   |                   |                   |                   |
 |                 |    + Enable                          |                   |                   |                   |                   |
