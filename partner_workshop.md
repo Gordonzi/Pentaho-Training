@@ -28,11 +28,12 @@ menu: true
 | Day             | Topic                        | Activity                                             | Deliverables                                    |
 |:----------------|:-----------------------------|:-----------------------------------------------------|:------------------------------------------------|
 |   1             | Introduction                 | • Overview of Workshop                               |                                                 |
-|                 |                              | • Lab Environment                                    |                                                 ||                 | Story                        | • Secondhand Lens                                    |                                                 ||                 |                              | Requirements:                                        |                                                 ||                 |                              |    o	Non-functional – GitHub Repository / Git        |                                                 |
-|                 |                              |                       Database Management Tool       |                                                 |
-|                 |                              |                       MySQL - Relational             |                                                 |
-|                 |                              |                       MonetDB - Star                 |                                                 |
-|                 |                              |    o	Business       – Analysis Reports  (PAZ)        |                                                 |
+|                 |                              | • Lab Environment                                    |                                                 |
+|                 |  Story                       | • Secondhand Lens                                    |                                                 |
+|                 |                              |  Requirements:                                       |                                                 |
+|                 |                              |    o	Non - functional - MySQL - Relational           |                                                 |
+|                 |                              |                         MonetDB - Star               |                                                 |
+|                 |                              |    o	Business         – Analysis Reports  (PAZ)      |                                                 |
 |                 |                              |                       Interactive Reports (PIR)      |                                                 |
 |                 |                              |                       Report Designer (PRD)          |                                                 |
 |                 |                              |                       Dashboard                      |                                                 |
