@@ -25,11 +25,9 @@ menu: true
 ---
 
 
-| Day             | Topic                        | Activity                                             | Day             | Topic                        |
-|:----------------|:-----------------------------|:-----------------------------------------------------|:----------------|:-----------------------------| 
-|   1             | Introduction                 | • Overview of Workshop                               |  2 &£             | Solution
-Architecture    |
-
+| Day             | Topic                        | Activity                                             |
+|:----------------|:-----------------------------|:-----------------------------------------------------|
+|   1             | Introduction                 | • Overview of Workshop                               |
 |                 |                              | • Lab Environment                                    |  
 |                 | Story                        | • Secondhand Lens                                    |                   
 |                 |                              | Requirements:                                        |                  
