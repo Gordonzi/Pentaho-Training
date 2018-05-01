@@ -25,24 +25,24 @@ menu: true
 ---
 
 
-| Day             | Topic                        | Activity                                             | Deliverables                                    |
-|:----------------|:-----------------------------|:-----------------------------------------------------|:------------------------------------------------|
-|   1             | Introduction                 | • Overview of Workshop                               |                                                 |
-|                 |                              | • Lab Environment                                    |                                                 |
-|                 |  Story                       | • Secondhand Lens                                    |                                                 |
-|                 |                              |  Requirements:                                       |                                                 |
-|                 |                              |    o	Non - functional - MySQL - Relational           |                                                 |
-|                 |                              |                         MonetDB - Star               |                                                 |
-|                 |                              |    o	Business         – Analysis Reports  (PAZ)      |                                                 |
-|                 |                              |                       Interactive Reports (PIR)      |                                                 |
-|                 |                              |                       Report Designer (PRD)          |                                                 |
-|                 |                              |                       Dashboard                      |                                                 |
-|                 | Installation & Configuration | • Pentaho Business Analytics Suite v8.0              |                                                 |
-|                 |                              |    o	Archive Installation                            |                                                 |
-|                 |                              |    o	Client Tools (Wizard)                           |                                                 |
-|                 |                              |    o	Security (Roles/Users)                          |                                                 |
-|                 | Solution Architecture        |  • Assess customer’s requirements and design         |                                                 |
-|                 |                              |    the solution architecture                         |                                                 |
-|:----------------|:-----------------------------|:-----------------------------------------------------|:------------------------------------------------|
+| Day             | Topic                        | Activity                                             | Deliverables                                                                        |
+|:----------------|:-----------------------------|:-----------------------------------------------------|-------------------------------------------------                                    |
+|   1             | Introduction                 | • Overview of Workshop                               | •	Installation and configuration of the following software:                |
+|                 |                              | • Lab Environment                                    |     o	Git with access to a GitHub Repository. You will require a GitHub account. |
+|                 |  Story                       | • Secondhand Lens                                    |     o	A Git GUI:                                                                    |
+|                 |                              |  Requirements:                                       |                                                                                     |
+|                 |                              |    o	Non - functional - MySQL - Relational           |                                                                                     |
+|                 |                              |                         MySQL - Star                 |                                                                                     |
+|                 |                              |    o	Business         – Analysis Reports  (PAZ)      |                                                                                     |
+|                 |                              |                         Interactive Reports (PIR)    |                                                                                     |
+|                 |                              |                         Report Designer (PRD)        |                                                                                     |
+|                 |                              |                       - Dashboard                    |                                                                                     |
+|                 | Installation & Configuration | • Pentaho Business Analytics Suite v8.0              |                                                                                     |
+|                 |                              |    o	Archive Installation                            |                                                                                     |
+|                 |                              |    o	Client Tools (Wizard)                           |                                                                                     |
+|                 |                              |    o	Security (Roles/Users)                          |                                                                                     |
+|                 | Solution Architecture        |  • Assess customer’s requirements and design         |                                                                                     |
+|                 |                              |    the solution architecture                         |                                                                                     |
+|:----------------|:-----------------------------|:-----------------------------------------------------|:------------------------------------------------                                    |
 
 {:.scroll-table}
