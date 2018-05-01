@@ -12,7 +12,10 @@ comments: true
 # Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  The Partner Workshop provides opportunities to understand the role of the affective domain in learning and to discuss the application of this understanding to specific examples in the geosciences including evolution and environmental issues.
+Providing business analytics solutions in today’s environment of big and diverse data can be a challenge. Technologies are evolving every day and solutions require computing competencies in addition to traditional DW/BI skills. 
+Hitachi Vantara’s Pentaho platform provides an ideal solution for companies looking to expand their analytics capabilities to include these new big data types and sources, and gain from our experts who have successfully deployed many production solutions for financial, healthcare, advertising, publishing, and technology industries.
+The Partner Workshop is designed to guide Hitachi Vantara Partners in acquiring requisite knowledge and skills in implementing a Pentaho solution following Professional Services guidelines.
+
 
 # You can show the description on the page by deleting this line:
 hide_description: false
@@ -22,15 +25,15 @@ menu: true
 ---
 
 
-| Roles           | Day 1                                | Day 2             | Day 3             | Day 4             | Day 5             |
-|:----------------|:-------------------------------------|:------------------|:------------------|:------------------|:------------------|
-|                 | Overview of Workshop                 |                   |                   |                   | Presentations     |
-|                 |                                      |                   |                   |                   |                   |
-|                 | Hitatchi VANTAGE Delivery Methodolgy |                   |                   |                   |                   |
-|                 |    + Plan                            |                   |                   |                   |                   |
-|                 |    + Discover                        |                   |                   |                   |                   |
-|                 |    + Design                          |                   |                   |                   |                   |
-|                 |    + Execute                         |                   |                   |                   |                   |
+| Day             | Topic                  | Activity                    | 
+|:----------------|:-----------------------|:----------------------------|
+|   1             | Introduction           | •	Overview of Workshop     |             
+|                 |                        | •	Lab Environment          |          
+|                 | Story                  | •	Story – Secondhand Lens  |                   
+|                 |                               |                   |                  
+|                 |                            |                   |                   |                   |                   |
+|                 |                              |                   |                   |                   |                   |
+|                 |                             |                   |                   |                   |                   |
 |                 |    + Enable                          |                   |                   |                   |                   |
 |                 |                                      |                   |                   |                   |                   |
 |                 |                                      |                   |                   |                   |                   |
@@ -40,7 +43,7 @@ menu: true
 |                 |                                      |                   |                   |                   |                   |    
 | Business Analyst|                                      |                   |                   |                   |                   |
 |                 |                                      |                   |                   |                   |                   |
-|:----------------|:-------------------------------------|:------------------|:------------------|:------------------|:------------------|
+|:----------------|:-------------------------------------|:------------------|
 
 
 
