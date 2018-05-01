@@ -28,11 +28,11 @@ menu: true
 | Day             | Topic                        | Activity                                             | Deliverables                                                                        |
 |:----------------|:-----------------------------|:-----------------------------------------------------|-------------------------------------------------                                    |
 |   1             | Introduction                 | • Overview of Workshop                               | •	Installation and configuration of the following software:                |
-|                 |                              | • Lab Environment                                    |    + o	Git with access to a GitHub Repository. You will require a GitHub account. |
-|                 |  Story                       | • Secondhand Lens                                    |    + o	A Git GUI:                                                                    |
+|                 |                              | • Lab Environment                                    |&nbsp;&nbsp; o	Git with access to a GitHub Repository. You will require a GitHub account. |
+|                 |  Story                       | • Secondhand Lens                                    |&nbsp;&nbsp; o	A Git GUI:                                                                    |
 |                 |                              |  Requirements:                                       |                                                                                     |
 |                 |                              |&nbsp;&nbsp; o	Non - functional - MySQL - Relational           |                                                                                     |
-|                 |                              |                         MySQL - Star                 |                                                                                     |
+|                 |                              |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                         MySQL - Star                 |                                                                                     |
 |                 |                              |&nbsp;&nbsp; o	Business         – Analysis Reports  (PAZ)      |                                                                                     |
 |                 |                              |                         Interactive Reports (PIR)    |                                                                                     |
 |                 |                              |                         Report Designer (PRD)        |                                                                                     |
