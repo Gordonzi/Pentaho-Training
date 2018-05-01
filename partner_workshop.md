@@ -25,13 +25,10 @@ menu: true
 ---
 
 
-| Day             | Topic                        | Activity                                             |
-|:----------------|:-----------------------------|:-----------------------------------------------------|
-|   1             | Introduction                 | • Overview of Workshop                               |
-|                 |                              | • Lab Environment                                    |  
-|                 | Story                        | • Secondhand Lens                                    |                   
-|                 |                              | Requirements:                                        |                  
-|                 |                              |    o	Non-functional – GitHub Repository / Git        |
+| Day             | Topic                        | Activity                                             | Deliverables                                    |
+|:----------------|:-----------------------------|:-----------------------------------------------------|:------------------------------------------------|
+|   1             | Introduction                 | • Overview of Workshop                               |                                                 |
+|                 |                              | • Lab Environment                                    |                                                 ||                 | Story                        | • Secondhand Lens                                    |                                                 ||                 |                              | Requirements:                                        |                                                 ||                 |                              |    o	Non-functional – GitHub Repository / Git        |
 |                 |                              |                       Database Management Tool       |                    
 |                 |                              |                       MySQL - Relational             |
 |                 |                              |                       MonetDB - Star                 |
@@ -47,12 +44,4 @@ menu: true
 |                 |                              |    the solution architecture                         |
 |:----------------|:-----------------------------|:-----------------------------------------------------|
 
-| Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            |
-| Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                |
-| 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                |
-| Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                |
 {:.scroll-table}
