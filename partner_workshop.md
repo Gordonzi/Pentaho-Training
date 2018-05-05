@@ -23,11 +23,9 @@ hide_description: false
 menu: true
 ---
 ### Story
-  Secondhand Lens (SL) have a number of Camera stores throughout the United Kingdom and United States, which primarily sell secondhand camera lenses.  Along with their store sales, they also have a website which customers can purchase these lenses online.  
-  Up to now, SL’s business analysts and management team had to reach out to the operation team to run queries on the transactional database to collect data and generate reports.  The poor data quaility has resulted in the execution of . 
-  Data Analysts and Managers needed to be empowered to 'slice and dice' the data, a process currently performed by the I.T department.  The Data Analysts are looking for trends and patterns by analyzing the sales data from different perspectives (i.e.. time or geography, or lens type).  
-  A new approach is required to access their data, and Pentaho Analytics Suite is a perfect solution.
-  The company has provided the following high-level requirements:
+  Secondhand Lens (SL) have a number of Camera stores throughout the United Kingdom and United States, which primarily sell secondhand camera lenses. Along with their store sales, they also have a website which customers can purchase these lenses online.
+  Up to now, SL’s business analysts and management team had to reach out to the I.T operations team to run queries on the transactional database to generate basic reports. Data Analysts need to be empowered to 'slice and dice' the data on an ad-hoc basis, i.e. by time, geography, or lens type. Managers wish to updated in a timely manner with operational and financial reports. 
+  A new approach is required to access their data, and Pentaho Analytics Suite is a perfect solution. The company has provided the following high-level requirements: 
      • Users login to a portal and execute / create reports.
      • Data Analysts require an OLAP solution, so they can measure their sales:
          o By sales channel
