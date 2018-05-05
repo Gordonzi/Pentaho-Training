@@ -22,7 +22,7 @@ hide_description: false
 # Setting `menu` will generate an entry in the sidebar.
 menu: true
 ---
-### Story
+![Audience](https://jporeilly.github.io/Pentaho-Training/assets/img/secondhand_lens.png) ### Story
   Secondhand Lens (SL) have a number of Camera stores throughout the United Kingdom and United States, which primarily sell secondhand camera lenses. Along with their store sales, they also have a website which customers can purchase these lenses online.
 
   Up to now, SL’s business analysts and management team had to reach out to the I.T operations team to run queries on the transactional database to generate basic reports. Data Analysts need to be empowered to 'slice and dice' the data on an ad-hoc basis, i.e. by time, geography, or lens type. Managers wish to updated in a timely manner with operational and financial reports. 
