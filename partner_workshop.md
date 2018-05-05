@@ -40,7 +40,7 @@ menu: true
   * End of month reports should be generated as pdf to be distributed to the management team for monthly strategic meetings, and investors.
   * Sales Manager would like to have a high-level view of the overall sales.
 
- #### Phase I
+#### Phase I
   * SL can use any security scheme that comes with the product, but all users must have accounts with proper roles and permissions. For future phases,     the platform needs to be integrated with Active Directory.
   * SL’s IT environment, has a development and a production environment.  Code or artifacts need to be promoted from a source control repository.
   * The platform will not have direct network access to the production database. Data file extracts can be placed in any location for the platform to      process them.
