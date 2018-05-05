@@ -50,4 +50,4 @@ menu: true
 ### Audience
 To complete the Workshop, each of the Partner organizations will require a person with the following role / activities:
 
-![Kafka](https://jporeilly.github.io/Pentaho-Training/assets/img/audience.png)
+![Audience](https://jporeilly.github.io/Pentaho-Training/assets/img/audience.png)
