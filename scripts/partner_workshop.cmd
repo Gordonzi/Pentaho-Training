@@ -42,7 +42,7 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/Partner_Workshop Day1
+git clone https://github.com/jporeilly/Partner_Workshop.git Day1
 EXIT
 
 
@@ -90,8 +90,8 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/Partner_Workshop Day1
-git clone https://github.com/jporeilly/Partner_Workshop Day2
-git clone https://github.com/jporeilly/Partner_Workshop Day3
-git clone https://github.com/jporeilly/Partner_Workshop Day4
+git clone https://github.com/jporeilly/Partner_Workshop.git Day1
+git clone https://github.com/jporeilly/Partner_Workshop.git Day2
+git clone https://github.com/jporeilly/Partner_Workshop.git Day3
+git clone https://github.com/jporeilly/Partner_Workshop.git Day4
 EXIT
