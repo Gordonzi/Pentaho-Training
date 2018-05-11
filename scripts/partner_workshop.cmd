@@ -96,5 +96,5 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-https://github.com/jporeilly/Partner-Workshop.git
+git clone https://github.com/jporeilly/Partner-Workshop.git
 EXIT
