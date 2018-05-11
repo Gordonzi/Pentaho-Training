@@ -61,4 +61,4 @@ To complete the Workshop, each of the Partner organizations will require a perso
 
 #### Getting Started
 
-[Course Materials](/scripts/cpartner_workshop.cmd) - Batch script for GitHub repositories *Requires Git to be installed.
+[Course Materials](/scripts/partner_workshop.cmd) - Batch script for GitHub repositories *Requires Git to be installed.
