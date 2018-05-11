@@ -56,3 +56,9 @@ menu: true
 To complete the Workshop, each of the Partner organizations will require a person with the following role / activities:
 
 ![Audience](https://jporeilly.github.io/Pentaho-Training/assets/img/audience.png)
+
+
+
+#### Getting Started
+
+[Course Materials](/scripts/cpartner_workshop.cmd) - Batch script for GitHub repositories *Requires Git to be installed.
