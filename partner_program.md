@@ -4,7 +4,7 @@
 layout: page
 
 # The title of the page.
-title: Partner Workshop
+title: Partner Program
 
 # Enable Disqus comments
 comments: true
@@ -61,4 +61,4 @@ To complete the Workshop, each of the Partner organizations will require a perso
 
 #### Getting Started
 
-[Course Materials](/scripts/partner_workshop.cmd) - Batch script for GitHub repositories *Requires Git to be installed.
+[Course Materials](/scripts/partner_program.cmd) - Batch script for GitHub repositories *Requires Git to be installed.
