@@ -22,7 +22,7 @@ echo.
 echo.    5. Advanced Pentaho Data Integration - DI-1500
 echo.        *DI-1500 - Course Files installed to C:\Pentaho-Training\DI-1500
 echo.        
-echo.        5.1 Confluent 4.0 - Confluent-4.0 installed to C:\Confluent-4.0
+echo.        5.1 Confluent 5.0.0 - Confluent-5.0 installed to C:\Confluent-5.0.0
 echo.        5.2 Projects - Project files installed to C:\Projects
 echo.        
 echo.    6. Pentaho Installation & Administration - AD-1000
@@ -98,14 +98,14 @@ git clone https://github.com/jporeilly/DI-1500.git DI-1500
 GOTO :CONFLUENT
 
 :CONFLUENT
-SET DIR="C:\Confluent-4.0"
+SET DIR="C:\Confluent-5.0.0"
 IF EXIST %DIR% RMDIR /S /Q %DIR%
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/Confluent-4.0.git .
+git clone https://github.com/jporeilly/Confluent-5.0.0.git .
 GOTO :PROJECTS
 
 :PROJECTS
@@ -121,14 +121,14 @@ EXIT
 
 
 :Item_5.1
-SET DIR="C:\Confluent-4.0"
+SET DIR="C:\Confluent-5.0.0"
 IF EXIST %DIR% RMDIR /S /Q %DIR%
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/Confluent-4.0.git .
+git clone https://github.com/jporeilly/Confluent-5.0.0.git .
 EXIT
 
 
@@ -217,14 +217,14 @@ git clone https://github.com/jporeilly/DI-1500.git DI-1500
 GOTO :CONFLUENT
 
 :CONFLUENT
-SET DIR="C:\Confluent-4.0"
+SET DIR="C:\Confluent-5.0.0"
 IF EXIST %DIR% RMDIR /S /Q %DIR%
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/Confluent-4.0.git .
+git clone https://github.com/jporeilly/Confluent-5.0.0.git .
 GOTO :PROJECTS
 
 :PROJECTS
