@@ -26,10 +26,9 @@ echo.        5.1 Confluent 5.0.0 - Confluent-5.0 installed to C:\Confluent-5.0.0
 echo.        5.2 Projects - Project files installed to C:\Projects
 echo.        
 echo.    6. Pentaho Installation & Administration - AD-1000
-echo.        *AD-1000 - Course Files installed to C:\Pentaho Training\AD-1000
+echo.        *AD-1000 - Course Files installed to C:\Pentaho-Training\AD-1000
 echo.
-echo.    7. All Pentaho Courses...  This will take about 5 mins to download.. 
-echo.
+echo.    
 echo.
 echo. The window will close once scripts have successfully executed.
 echo.
@@ -143,7 +142,7 @@ CD %DIR%
 git clone https://github.com/jporeilly/Projects.git .
 EXIT
 
-<<<<<<< HEAD
+
 :Item_6
 SET DIR="C:\Pentaho-Training\"
 IF EXIST %DIR% RMDIR /S /Q %DIR%\AD-1000
@@ -155,23 +154,9 @@ CD %DIR%
 git clone https://github.com/jporeilly/AD-1000.git AD-1000
 EXIT
 
-:Item_6
-SET DIR="C:\Pentaho-Training\"
-=======
-:Item_6
-SET DIR="C:\Pentaho Training\"
-IF EXIST %DIR% RMDIR /S /Q %DIR%\AD-1000
-GOTO :NOFOLDER
-IF NOT EXIST %DIR% GOTO NOFOLDER
-:NOFOLDER
-MD %DIR%
-CD %DIR%
-git clone https://github.com/jporeilly/AD-1000.git AD-1000
-EXIT
 
 :Item_7
 SET DIR="C:\Pentaho Training\"
->>>>>>> 7f2ec3d37a29988a2763fa6b9e047766db0c3fc0
 IF EXIST %DIR% RMDIR /S /Q %DIR%\BA-1000
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
