@@ -10,7 +10,8 @@ slug: Data-Integration
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Placeholder.
+Enable users to ingest, blend, cleanse and prepare diverse data from any source. 
+With visual tools to eliminate coding and complexity, Pentaho puts the best quality data at the fingertips of IT and the business.
 
 
 # Setting `menu` will generate an entry in the sidebar for this tag.
