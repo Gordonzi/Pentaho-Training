@@ -17,7 +17,7 @@ echo.    3. Business Analytics Data Modelling - BA-3000
 echo.        *BA-3000 - Course Files installed to C:\Pentaho-Training\BA-3000
 echo.
 echo.    4. Pentaho Data Integration - DI-1000
-echo.        *DI-1000 - Course Files installed to C:\Pentaho Training\DI-1000
+echo.        *DI-1000 - Course Files installed to C:\Pentaho-Training\DI-1000
 echo.
 echo.    5. Advanced Pentaho Data Integration - DI-1500
 echo.        *DI-1500 - Course Files installed to C:\Pentaho-Training\DI-1500
@@ -26,8 +26,10 @@ echo.        5.1 Confluent 5.0.0 - Confluent-5.0 installed to C:\Confluent-5.0.0
 echo.        5.2 Projects - Project files installed to C:\Projects
 echo.        
 echo.    6. Pentaho Installation and Admin - AD-1000
-echo.        *AD-1000 - Course Files installed to C:\Pentaho Training\AD-1000
+echo.        *AD-1000 - Course Files installed to C:\Pentaho-Training\AD-1000
 echo.
+echo.    7. Pentaho Support and Troubleshooting - SP-1000
+echo.        *AD-1000 - Course Files installed to C:\Pentaho-Training\SP-1000
 echo.
 echo.    The window will close once scripts have successfully executed.
 echo.
@@ -155,6 +157,19 @@ EXIT
 
 
 :Item_7
+SET DIR="C:\Pentaho-Training\"
+IF EXIST %DIR% RMDIR /S /Q %DIR%\SP-1000
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/SP-1000.git SP-1000
+EXIT
+
+
+
+:Item_8
 SET DIR="C:\Pentaho-Training\"
 IF EXIST %DIR% RMDIR /S /Q %DIR%\BA-1000
 GOTO :NOFOLDER
