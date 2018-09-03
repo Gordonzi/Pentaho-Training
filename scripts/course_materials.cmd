@@ -29,7 +29,7 @@ echo.    6. Pentaho Installation and Admin - AD-1000
 echo.        *AD-1000 - Course Files installed to C:\Pentaho-Training\AD-1000
 echo.
 echo.    7. Pentaho Support and Troubleshooting - SP-1000
-echo.        *AD-1000 - Course Files installed to C:\Pentaho-Training\SP-1000
+echo.        *SP-1000 - Course Files installed to C:\Pentaho-Training\SP-1000
 echo.
 echo.    The window will close once scripts have successfully executed.
 echo.
