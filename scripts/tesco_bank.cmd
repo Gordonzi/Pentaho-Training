@@ -8,7 +8,7 @@ echo.
 echo.  
 echo.    1. Tesco Bank - Pentaho data Integration
 echo.        *DI-1000 - Course Files installed to C:\Pentaho-Training\Tesco-Bank
-echo.
+echo.         Includes Metadata injection
 echo.    
 echo.
 echo.    The window will close once scripts have successfully executed.
