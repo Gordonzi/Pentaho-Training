@@ -110,7 +110,7 @@ EXIT
 
 
 :Item_5
-SET DIR="C:\Pentaho-Training\"
+SET DIR="C:\Pentaho-Training"
 IF EXIST %DIR% RMDIR /S /Q %DIR%\DI-1500
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
