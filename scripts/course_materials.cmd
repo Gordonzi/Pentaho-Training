@@ -154,7 +154,7 @@ git clone https://github.com/jporeilly/AD-1000.git .
 EXIT
 
 
-:Item_6
+:Item_7
 SET DIR="C:\Pentaho-Training\"
 IF EXIST %DIR% RMDIR /S /Q %DIR%\AD-1000
 GOTO :NOFOLDER
