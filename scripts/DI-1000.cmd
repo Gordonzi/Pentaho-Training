@@ -10,7 +10,10 @@ echo.    1. Data Integration - DI-1000
 echo.       * Course Files installed to C:\Pentaho-Training\DI-1000
 echo.          Transformations
 echo.          Dealing with Flat Files
-echo.          Database
+echo.          Database Transactions
+echo.          Enriching the Data
+echo.          Jobs
+echo.          Scale out Solution
 echo.
 echo.
 echo. The window will close once scripts have successfully executed.
