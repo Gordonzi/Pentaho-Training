@@ -9,13 +9,13 @@ echo.
 echo.    1. Business Analytics - BA-1000
 echo.       * Course Files installed to C:\Pentaho-Training\BA-1000
 echo.          Pentaho User Console
-echo.          Analyzer & Interactive Reports
+echo.          Analyzer '&' Interactive Reports
 echo.          Dashboards
 echo.
 echo.    2. Report Designer - BA-2000
 echo.       * Course Files installed to C:\Pentaho-Training\BA-2000
 echo.          Data Sources
-echo.          Elements & Groups
+echo.          Elements '&' Groups
 echo.          Calculations
 echo.          Charts & Sub Reports
 echo.
