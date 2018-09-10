@@ -30,5 +30,5 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/DI-1000.git .
+git clone https://github.com/jporeilly/DI-1000.git DI-1000
 EXIT

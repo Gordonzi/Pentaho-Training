@@ -26,5 +26,5 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/BA-3000.git .
+git clone https://github.com/jporeilly/BA-3000.git BA-3000
 EXIT
