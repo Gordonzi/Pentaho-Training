@@ -121,18 +121,18 @@ git clone https://github.com/jporeilly/DI-1500.git .
 GOTO CONFLUENT
 
 :CONFLUENT
-SET DIR="C:\Confluent-5.0.0\"
+SET DIR="C:\Confluent-5.0.0"
 IF EXIST %DIR% RMDIR /S /Q %DIR%
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/DI-1500.git .
+git clone https://github.com/jporeilly/Confluent-5.0.0.git .
 GOTO PROJECTS
 
 :PROJECTS
-SET DIR="C:\Projects\"
+SET DIR="C:\Projects"
 IF EXIST %DIR% RMDIR /S /Q %DIR%
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
