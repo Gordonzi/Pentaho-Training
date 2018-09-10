@@ -6,7 +6,7 @@ echo. Select an option to install the required Course Materials from GitHub Repo
 echo. Requires GIT to be installed and configured
 echo.
 echo. 
-echo.    2. Report Designer - BA-2000
+echo.    1. Report Designer - BA-2000
 echo.       * Course Files installed to C:\Pentaho-Training\BA-2000
 echo.          Data Sources
 echo.          Elements and Groups
