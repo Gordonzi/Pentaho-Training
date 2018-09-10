@@ -9,15 +9,15 @@ echo.
 echo.    1. Business Analytics - BA-1000
 echo.       * Course Files installed to C:\Pentaho-Training\BA-1000
 echo.          Pentaho User Console
-echo.          Analyzer '&' Interactive Reports
+echo.          Analyzer ^& Interactive Reports
 echo.          Dashboards
 echo.
 echo.    2. Report Designer - BA-2000
 echo.       * Course Files installed to C:\Pentaho-Training\BA-2000
 echo.          Data Sources
-echo.          Elements '&' Groups
+echo.          Elements ^& Groups
 echo.          Calculations
-echo.          Charts & Sub Reports
+echo.          Charts ^& Sub Reports
 echo.
 echo.    3. Data Modeling - BA-3000
 echo.       * Course Files installed to C:\Pentaho-Training\BA-3000
@@ -34,7 +34,7 @@ echo.    5. Advanced Data Integration - DI-1500
 echo.       * Course Files installed to C:\Pentaho-Training\DI-1500
 echo.          Metadata Injection
 echo.          PDI as a Data Source
-echo.          Streaming Data - MQTT & Kafka
+echo.          Streaming Data - MQTT ^& Kafka
 echo.          Scaling out Enterprise Solution
 echo.          
 echo.      5.1 Confluent-5.0.0 installed to C:\Confluent-5.0.0
@@ -43,13 +43,13 @@ echo.
 echo.      5.2 Project Files installed to C:\Projects
 echo.          Twitter
 echo.
-echo.    6. Installation & Administration
+echo.    6. Installation ^& Administration
 echo.       * Course Files installed to C:\Pentaho-Training\AD-1000
 echo.          Archive Installation
 echo.          Pentaho Administration
 echo.          PDI Administration
 echo.
-echo.    7. Support & Troubleshooting
+echo.    7. Support ^& Troubleshooting
 echo.       * Course Files installed to C:\Pentaho-Training\SP-1000
 echo.          Hitachi Vantara Customer Support Portal
 echo.
