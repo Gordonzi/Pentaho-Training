@@ -69,7 +69,7 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone -b Day1 https://github.com/jporeilly/BA-1000.git .
+git clone https://github.com/jporeilly/BA-1000.git .
 EXIT
 
 
@@ -81,7 +81,7 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone -b Day2 https://github.com/jporeilly/BA-2000.git .
+git clone https://github.com/jporeilly/BA-2000.git .
 EXIT
 
 
@@ -93,7 +93,7 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone -b Day3 https://github.com/jporeilly/BA-3000.git .
+git clone https://github.com/jporeilly/BA-3000.git .
 EXIT
 
 
@@ -105,7 +105,7 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone -b Day4 https://github.com/jporeilly/DI-1000.git .
+git clone https://github.com/jporeilly/DI-1000.git .
 EXIT
 
 
