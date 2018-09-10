@@ -35,12 +35,15 @@ echo.       * Course Files installed to C:\Pentaho-Training\DI-1500
 echo.          Metadata Injection
 echo.          PDI as a Data Source
 echo.          Streaming Data - MQTT & Kafka
+echo.          Scaling out Enterprise Solution
 echo.          
-echo.       * Confluent-5.0.0 installed to C:\Confluent-5.0.0
-echo.       * Project Files installed to C:\Projects
+echo.      5.1 Confluent-5.0.0 installed to C:\Confluent-5.0.0
+echo.          Confluent-5.0.0 
 echo.
+echo.      5.2 Project Files installed to C:\Projects
+echo.          Twitter
 echo.
-echo.
+echo.     6. 
 echo.
 echo.
 echo.
@@ -110,5 +113,17 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 :NOFOLDER
 MD %DIR%
 CD %DIR%
-git clone https://github.com/jporeilly/DI-1500.git
+git clone https://github.com/jporeilly/DI-1500.git .
+EXIT
+
+
+:Item_6
+SET DIR="C:\Pentaho-Training\"
+IF EXIST %DIR% RMDIR /S /Q %DIR%\AD-1000
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/AD-1000.git .
 EXIT
