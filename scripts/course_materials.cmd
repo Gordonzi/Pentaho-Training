@@ -43,11 +43,15 @@ echo.
 echo.      5.2 Project Files installed to C:\Projects
 echo.          Twitter
 echo.
-echo.     6. 
+echo.    6. Installation & Administration
+echo.       * Course Files installed to C:\Pentaho-Training\AD-1000
+echo.          Archive Installation
+echo.          Pentaho Administration
+echo.          PDI Administration
 echo.
-echo.
-echo.
-echo.
+echo.    7. Support & Troubleshooting
+echo.       * Course Files installed to C:\Pentaho-Training\SP-1000
+echo.          Hitachi Vantara Customer Support Portal
 echo.
 echo.
 echo. The window will close once scripts have successfully executed.
@@ -114,6 +118,39 @@ IF NOT EXIST %DIR% GOTO NOFOLDER
 MD %DIR%
 CD %DIR%
 git clone https://github.com/jporeilly/DI-1500.git .
+GOTO CONFLUENT
+
+:CONFLUENT
+SET DIR="C:\Confluent-5.0.0\"
+IF EXIST %DIR% RMDIR /S /Q %DIR%
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/DI-1500.git .
+GOTO PROJECTS
+
+:PROJECTS
+SET DIR="C:\Projects\"
+IF EXIST %DIR% RMDIR /S /Q %DIR%
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/Projects.git .
+EXIT
+
+:Item_6
+SET DIR="C:\Pentaho-Training\"
+IF EXIST %DIR% RMDIR /S /Q %DIR%\AD-1000
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/AD-1000.git .
 EXIT
 
 
