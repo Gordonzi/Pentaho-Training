@@ -63,3 +63,37 @@ MD %DIR%
 CD %DIR%
 git clone https://github.com/jporeilly/Projects.git .
 EXIT
+
+
+:Item_1.1
+SET DIR="C:\Pentaho-Training"
+IF EXIST %DIR% RMDIR /S /Q %DIR%\DI-1500
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/DI-1500.git DI-1500
+EXIT
+
+:Item_1.2
+SET DIR="C:\Confluent-5.0.0"
+IF EXIST %DIR% RMDIR /S /Q %DIR%
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/Confluent-5.0.0.git .
+EXIT
+
+:Item_1.3
+SET DIR="C:\Projects"
+IF EXIST %DIR% RMDIR /S /Q %DIR%
+GOTO :NOFOLDER
+IF NOT EXIST %DIR% GOTO NOFOLDER
+:NOFOLDER
+MD %DIR%
+CD %DIR%
+git clone https://github.com/jporeilly/Projects.git .
+EXIT
