@@ -32,7 +32,7 @@ set /p x= Select an Option:
 IF '%x%' == '%x%' GOTO Item_%x%
 
 :Item_1
-SET DIR="C:\Pentaho-Training"
+SET DIR="C:\Pentaho-Training\"
 IF EXIST %DIR% RMDIR /S /Q %DIR%\DI-1500
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER

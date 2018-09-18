@@ -19,7 +19,7 @@ IF '%x%' == '%x%' GOTO Item_%x%
 
 
 :Item_1
-SET DIR="C:\Pentaho-Training\BA-3000"
+SET DIR="C:\Pentaho-Training\"
 IF EXIST %DIR% RMDIR /S /Q %DIR%\BA-3000
 GOTO :NOFOLDER
 IF NOT EXIST %DIR% GOTO NOFOLDER
